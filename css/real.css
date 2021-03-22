@@ -1,0 +1,509 @@
+/* /*@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-2.col-sm-2.col-md-2.right-search {
+        position: absolute;
+        right: 50%;
+        top: 17px;
+        margin-right: -34px;
+        z-index: 99;
+    }
+    button.navbar-toogler {
+        color: white;
+    }
+    .col-lg-8.col-sm-7.col-md-7 .mainmenu {
+        position: relative;
+        text-align: right !important;
+        display: unset;
+    }
+    .col-lg-8.col-sm-7.col-md-7 button.navbar-toogler {
+        display: block;
+        float: right;
+        margin-top: 14px;
+    }
+    .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+        max-width: 33% !important;
+        flex: 0 0 33% !important;
+        width: 33% !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+        max-width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .myslides {
+        padding-top: 30px;
+    }
+    .myslides h2 {
+        width: fit-content;
+        font-size: 50px !important;
+        letter-spacing: 5px !important;
+        position: relative;
+        top: 0;
+        left: 50px !important;
+    }
+    .myslides h2 span {
+        font: 18px;
+        letter-spacing: 4px !important;
+    }
+    .myslides .p_img {
+        height: 176px;
+        left: 80px;
+    }
+    .myslides .p_detail {
+        width: 100%;
+        position: relative;
+        top: -190px;
+        right: 0%;
+        padding: 23px 50px 30px;
+        text-align: center;
+    }
+    .myslides .p_detail h3 {
+        font-size: 30px !important;
+    }
+    .myslides .p_detail h3 i {
+        font-size: 17px;
+    }
+    .col-lg-12 h2 {
+        font-size: 38px !important;
+        width: 100%;
+    }
+} */
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .navbar.navbar-expand-lg.mainmenu.text-center {
+        padding: 0px !important;
+        overflow: hidden !important;
+    }
+    .navigator.text-right {
+        padding-top: 0px;
+    }
+    .logo {
+        padding-bottom: 0px !important;
+    }
+    .header-1 {
+        padding-top: 0px !important;
+    }
+    .myslides {
+        padding-top: 30px;
+    }
+    .myslides h2 {
+        width: fit-content;
+        font-size: 55px !important;
+        letter-spacing: 5px !important;
+        position: relative;
+        top: 131px !important;
+        left: 50px !important;
+    }
+    .myslides h2 span {
+        font: 18px;
+        letter-spacing: 4px !important;
+    }
+    .myslides .p_img {
+        height: 177px;
+        left: 80px;
+        top: -20px;
+    }
+    .myslides .p_detail {
+        width: 100%;
+        position: relative;
+        top: -195px;
+        right: 0%;
+        padding: 23px 50px 30px;
+        text-align: center;
+    }
+    .myslides .p_detail h3 {
+        font-size: 30px !important;
+    }
+    .myslides .p_detail h3 i {
+        font-size: 17px;
+    }
+    .col-lg-12 {
+        width: 300px;
+    }
+    .col-lg-12 h2 {
+        font-size: 35px !important;
+        width: 100%;
+    }
+    .sec_title.wow.bounceInLeft {
+        line-height: 40px !important;
+        letter-spacing: 1px !important;
+        text-align: center;
+    }
+    .service_section .col-lg-12 p {
+        display: none;
+    }
+    .row.custom_column {
+        display: block;
+    }
+    .front,
+    .back {
+        padding: 70px 100px!important;
+    }
+    .front i,
+    .back i {
+        position: relative;
+        right: 30px;
+    }
+    .front h3,
+    .back h3 {
+        position: relative;
+        right: 30px;
+    }
+    .front i.fa-diamond:before,
+    .back i.fa-diamond:before {
+        position: relative;
+        right: 10px !important;
+    }
+    .front i.fa.fa-paper-plane:before,
+    .back i.fa.fa-paper-plane:before {
+        position: relative;
+        right: 10px !important;
+    }
+    .col-lg-4 img {
+        height: 500px;
+        margin: 0 auto !important;
+        width: 290px;
+    }
+    .col-md-4 img {
+        height: 500px;
+        width: 290px;
+        margin: 0 auto !important;
+        margin-bottom: 15px !important;
+    }
+    .text-area h3 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .text-area p {
+        text-align: center;
+    }
+    .icon-cards-area {
+        text-align: center;
+    }
+    #tracking .card-body p {
+        position: relative;
+        width: 300px;
+        right: 60px;
+    }
+    #monitoring .card-body p {
+        position: relative;
+        width: 300px;
+        right: 58px;
+    }
+    .lightbox-basic img {
+        height: 350px;
+        position: relative;
+        float: left;
+        margin-bottom: 10px !important;
+    }
+    .lightbox-basic h3,
+    .lightbox-basic p,
+    .lightbox-basic h4,
+    .lightbox-basic hr {
+        display: none;
+    }
+    .lightbox-basic table {
+        margin-top: -320px !important;
+        width: 50%;
+        float: right;
+    }
+    table td {
+        padding-bottom: 30px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 7.5rem;
+    }
+    .footer-col.col-lg-3 {
+        width: 45% !important;
+        margin-bottom: 28px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 9rem;
+    }
+}
+
+@media (min-width: 555px) and (max-width: 768px) {
+    .myslides h2 {
+        font-size: 75px !important;
+    }
+    .myslides .p_img {
+        height: 177px;
+        left: 120px;
+    }
+}
+
+.lightbox-basic a.btn-solid-reg {
+    margin-left: 10rem;
+}
+
+@media (min-width: 605px) and (max-width: 768px) {
+    .myslides h2 {
+        font-size: 75px !important;
+    }
+    .myslides .p_img {
+        height: 185px;
+        left: 130px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 11rem;
+    }
+}
+
+@media (min-width: 625px) and (max-width: 768px) {
+    .myslides h2 {
+        font-size: 80px !important;
+    }
+    .myslides .p_img {
+        height: 189px;
+        left: 130px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 12rem;
+    }
+    .front,
+    .back {
+        padding: 80px 140px!important;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 768px) {
+    .myslides h2 {
+        font-size: 90px !important;
+    }
+    .myslides .p_img {
+        height: 194px;
+        left: 178px;
+    }
+    .lightbox-basic img {
+        width: 175px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 13rem;
+    }
+    .col-lg-12 {
+        width: 450px !important;
+    }
+    .front,
+    .back {
+        padding: 98px 158px!important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 768px) {
+    .myslides h2 {
+        font-size: 92px;
+    }
+    .myslides .p_img {
+        height: 198px;
+        left: 190px;
+    }
+    .lightbox-basic table {
+        margin-left: 295px;
+    }
+    .lightbox-basic img {
+        width: 200px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 14rem;
+    }
+    .front,
+    .back {
+        padding: 108px 178px!important;
+    }
+}
+
+@media (min-width: 725px) and (max-width: 768px) {
+    .lightbox-basic table {
+        margin-left: 325px;
+    }
+    .lightbox-basic a.btn-solid-reg {
+        margin-left: 15.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .myslides {
+        padding-top: 30px;
+    }
+    .myslides h2 {
+        width: fit-content;
+        font-size: 95px !important;
+        letter-spacing: 5px !important;
+        position: relative;
+        top: 131px !important;
+        left: 50px !important;
+    }
+    .myslides h2 span {
+        font: 18px;
+        letter-spacing: 4px !important;
+    }
+    .myslides .p_img {
+        height: 198px;
+        left: 200px;
+        top: -20px;
+    }
+    .myslides .p_detail {
+        width: 100%;
+        position: relative;
+        top: -195px;
+        right: 0%;
+        padding: 23px 50px 30px;
+        text-align: center;
+    }
+    .myslides .p_detail h3 {
+        font-size: 30px !important;
+    }
+    .myslides .p_detail h3 i {
+        font-size: 17px;
+    }
+    .myslides .p_img {
+        height: 200px;
+        left: 200px;
+    }
+    .col-lg-12 h2 {
+        width: 500px;
+    }
+    .col-lg-12 h4 {
+        margin-left: 4.8rem;
+    }
+    .service_section .col-lg-12 p {
+        display: block;
+    }
+    .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+        max-width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+    .lightbox-basic img {
+        height: 450px;
+        position: relative;
+        float: left;
+        width: 270px;
+    }
+    .lightbox-basic .col-lg-6 {
+        width: 50%;
+        float: right;
+    }
+    .lightbox-basic .col-lg-6 h4 {
+        display: none;
+    }
+    .col-lg-6 .ocultar {
+        display: none !important;
+    }
+    .col-lg-4 img {
+        height: 520px;
+        margin: 0 auto !important;
+        width: 310px;
+    }
+    .col-md-4 img {
+        height: 500px;
+        width: 290px;
+        margin: 0 auto !important;
+        margin-bottom: 15px !important;
+    }
+    .footer-col.col-lg-3 {
+        width: 45% !important;
+        margin-bottom: 28px;
+    }
+    #tracking .card-body p {
+        width: 400px;
+    }
+    #tracking .col-md-4 img {
+        position: relative;
+        top: 15rem !important;
+    }
+    #monitoring .card-body p {
+        width: 400px;
+    }
+    #monitoring .col-md-4 img {
+        position: relative;
+        top: 15rem !important;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 991px) {
+    .myslides h2 {
+        font-size: 97px !important;
+    }
+    .myslides .p_img {
+        height: 220px;
+        left: 220px;
+    }
+    .myslides .p_detail {
+        top: -210px !important;
+    }
+    .col-lg-12 h2 {
+        width: 635px
+    }
+}
+
+@media (min-width: 920px) and (max-width: 991px) {
+    .myslides h2 {
+        font-size: 100px !important;
+    }
+    .myslides .p_img {
+        width: 500px;
+        height: 220px;
+        left: 250px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+    .myslides h2 {
+        width: fit-content;
+        font-size: 145px !important;
+        letter-spacing: 5px !important;
+        position: relative;
+        top: 131px !important;
+        left: 50px !important;
+    }
+    .myslides .p_img {
+        width: 500px;
+        height: 300px;
+    }
+    a.search {
+        display: none !important;
+    }
+    .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+        max-width: 30% !important;
+        flex: 0 0 30% !important;
+    }
+    .col-md-4 img {
+        height: 500px;
+        width: 290px;
+        margin: 0 auto !important;
+        margin-bottom: 15px !important;
+    }
+    .footer-col.col-lg-3 {
+        width: 45% !important;
+        margin-bottom: 28px;
+    }
+    #tracking .card-body p {
+        width: 400px;
+    }
+    #tracking .col-md-4 img {
+        position: relative;
+        top: 15rem !important;
+    }
+    #monitoring .card-body p {
+        width: 400px;
+    }
+    #monitoring .col-md-4 img {
+        position: relative;
+        top: 15rem !important;
+    }
+    #configuring .card-body {
+        margin-top: 0px !important;
+        padding-top: 0px;
+    }
+    #configuring .col-lg-4 img {
+        position: relative;
+        top: 10rem !important;
+    }
+}
